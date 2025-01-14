@@ -123,8 +123,8 @@ verifiedregistry  bafk2bzacecudaqwbz6dukmdbfok7xuxcpjqighnizhxun4spdqvnqgftkupp2
 
 All node operators, including storage providers, should be aware that ONE pre-migration is being scheduled 120 epochs before the network upgrade. The migration for the NV24 upgrade is expected to be light with no heavy pre-migrations:
 
-- Pre-Migration is expected to take less then 1 minute.
-- The migration on the upgrade epoch is expected to take less than 30 seconds on a node with a NVMe-drive and a newer CPU. For nodes running on slower disks/CPU, it is still expected to take less then 1 minute.
+- Pre-Migration is expected to take less than 1 minute.
+- The migration on the upgrade epoch is expected to take less than 30 seconds on a node with a NVMe-drive and a newer CPU. For nodes running on slower disks/CPU, it is still expected to take less than 1 minute.
 - RAM usages is expected to be under 20GiB RAM for both the pre-migration and migration.
 
 We recommend node operators (who haven't enabled splitstore discard mode) that do not care about historical chain states, to prune the chain blockstore by syncing from a snapshot 1-2 days before the upgrade.
